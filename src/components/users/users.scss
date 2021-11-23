@@ -1,0 +1,48 @@
+.user{
+    margin: 70px 0;
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__item{
+        width: 300px;
+        max-width: 100%;
+        padding: 15px;
+        margin: 0 10px 10px;
+        border: 1px solid #132F4C;
+        border-radius: 10px;
+        // cursor: pointer;
+        transition: 0.5s;
+        &:hover{
+            box-shadow: 0 0 1px 3px #D6D9DE;
+        }
+    }
+    &__title{
+        margin-bottom: 10px;
+    }
+    &__email{
+        text-decoration: none;
+    }
+    &__address{
+        margin: 10px 0;
+    }
+    &__id{
+        margin-bottom: 20px;
+    }
+    &__box{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.MuiSvgIcon-fontSizeMedium{
+    fill: #fff !important;
+}
+
+@media screen and (max-width: 768px) {
+    .user{
+        margin: 30px 0;
+        &__list{
+            justify-content: center;
+        }
+    }
+}

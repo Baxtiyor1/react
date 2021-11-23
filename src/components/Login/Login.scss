@@ -1,0 +1,30 @@
+.login{
+    margin: 50px 10px !important;
+    max-width: 100%;
+    padding: 30px 10px !important;
+    border-radius: 15px;
+    // background-color: #092b4f; 
+    border: 1px solid #132F4C !important; 
+    &__wrapper{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.css-binzgt{
+    margin-top: 0 !important;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:invalid{
+    border: 1px solid #132F4C !important;
+    border-radius: 10px !important;
+}
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root{
+    &:hover{
+        border: none !important;
+    }
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    color: rgb(50, 250, 0) !important;
+}

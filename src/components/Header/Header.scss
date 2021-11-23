@@ -1,0 +1,48 @@
+.header{
+    border-bottom: 2px solid #132F4C;
+    &__nav{
+        background-color: #0A1929;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__link{
+        text-decoration: none;
+        margin-right: 20px;
+        font-size: 24px;
+        border-bottom: 2px solid transparent;
+        transition: 0.5s;
+        &:hover{
+            border-bottom: 2px solid #66B2FF;
+        }
+    }
+    &__login{
+        display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: #fff;
+        z-index: 2;
+        &--active{
+            display: block;
+        }
+    }
+}
+.active{
+    color: #007afc;
+    border-bottom: 2px solid #007afc;
+}
+
+@media screen and (max-width: 768px) {
+    .header{
+        &__link{
+            font-size: 16px;
+        }
+    }
+    .css-180lf2n-MuiButtonBase-root-MuiButton-root{
+        padding: 0 5px !important;
+    }
+}
